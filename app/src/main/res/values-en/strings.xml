@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NetworkBS</string>
+    <string name="mode_add_node">Add an object</string>
+    <string name="mode_add_edge">Add a connection</string>
+    <string name="mode_edit">Edit/Move</string>
+    <string name="reset">Reset Network</string>
+</resources>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">NetworkBS</string>
+<string name="app_name">NetworkBS</string>
+<string name="mode_add_node">Ajouter un objet</string>
+<string name="mode_add_edge">Ajouter une connexion</string>
+<string name="mode_edit">Modifier / Déplacer</string>
+<string name="reset">Réinitialiser le réseau</string>
 </resources>
