@@ -26,6 +26,12 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
 
+        // Récupère la hauteur du Toolbar une fois qu’il est mesuré
+        toolbar.post {
+            val toolbarHeight = toolbar.height
+            graphView.setToolbarHeight(toolbarHeight)
+        }
+
         graph = Graph().apply {
         }
 
