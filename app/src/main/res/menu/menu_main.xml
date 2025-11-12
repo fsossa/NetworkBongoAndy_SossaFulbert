@@ -3,4 +3,8 @@
     <item android:id="@+id/action_mode_add_edge" android:title="@string/mode_add_edge"/>
     <item android:id="@+id/action_mode_edit" android:title="@string/mode_edit"/>
     <item android:id="@+id/action_reset" android:title="@string/reset"/>
+    <item android:id="@+id/action_save" android:title="Sauvegarder"/>
+    <item android:id="@+id/action_load" android:title="Charger"/>
+    <item android:id="@+id/action_send_email" android:title="Envoyer par e-mail" />
+    <item android:id="@+id/action_choose_plan" android:title="Choisir un plan" />
 </menu>

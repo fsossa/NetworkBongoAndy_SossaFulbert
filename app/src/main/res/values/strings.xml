@@ -1,7 +1,14 @@
 <resources>
-<string name="app_name">NetworkBS</string>
-<string name="mode_add_node">Ajouter un objet</string>
-<string name="mode_add_edge">Ajouter une connexion</string>
-<string name="mode_edit">Modifier / Déplacer</string>
-<string name="reset">Réinitialiser le réseau</string>
+    <string name="app_name">NetworkBS</string>
+    <string name="mode_add_node">Ajouter un objet</string>
+    <string name="mode_add_edge">Ajouter une connexion</string>
+    <string name="mode_edit">Modifier / Déplacer</string>
+    <string name="reset">Réinitialiser le réseau</string>
+    <string name="action_save">Sauvegarder</string>
+    <string name="action_load">Charger</string>
+    <string name="action_send_email">Envoyer par mail</string>
+    <string name="email_subject">Capture du réseau domestique</string>
+    <string name="email_body">Voici la capture du réseau généré.</string>
+    <string name="save_done">Sauvégardé</string>
+    <string name="no_saved_graph">Aucune sauvegarde disponible</string>
 </resources>

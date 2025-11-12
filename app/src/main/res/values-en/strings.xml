@@ -5,4 +5,12 @@
     <string name="mode_add_edge">Add a connection</string>
     <string name="mode_edit">Edit/Move</string>
     <string name="reset">Reset Network</string>
+    <string name="action_save">Save</string>
+    <string name="action_load">Load</string>
+    <string name="action_send_email">Share</string>
+    <string name="email_subject">Capture</string>
+    <string name="email_body">Voici la capture du réseau.</string>
+    <string name="save_done">Save done</string>
+    <string name="no_saved_graph">No saved graph</string>
+
 </resources>
