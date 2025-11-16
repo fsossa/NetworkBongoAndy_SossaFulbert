@@ -1,4 +1,4 @@
-package istic.mob.networkbs
+package fr.istic.mob.networkbs
 import com.google.gson.Gson
 
 import org.json.JSONArray

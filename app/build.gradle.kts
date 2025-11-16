@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "istic.mob.networkbs"
+    namespace = "fr.istic.mob.networkbs"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "istic.mob.networkbs"
-        minSdk = 24
+        applicationId = "fr.istic.mob.networkbs"
+        minSdk = 28
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"

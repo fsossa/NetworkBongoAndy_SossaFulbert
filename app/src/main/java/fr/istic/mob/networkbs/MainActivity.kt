@@ -1,12 +1,12 @@
-package istic.mob.networkbs
+package fr.istic.mob.networkbs
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import istic.mob.networkbs.Graph
-import istic.mob.networkbs.Object
-import istic.mob.networkbs.Graphview
+import fr.istic.mob.networkbs.Graph
+import fr.istic.mob.networkbs.Object
+import fr.istic.mob.networkbs.Graphview
 import androidx.appcompat.widget.Toolbar
 import android.widget.FrameLayout
 import android.content.Intent

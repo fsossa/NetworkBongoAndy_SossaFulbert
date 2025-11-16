@@ -1,4 +1,4 @@
-package istic.mob.networkbs
+package fr.istic.mob.networkbs
 
 data class Connection (val aId: Int,
                        val bId: Int,

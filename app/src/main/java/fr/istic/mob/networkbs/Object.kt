@@ -1,4 +1,4 @@
-package istic.mob.networkbs
+package fr.istic.mob.networkbs
 
 import android.graphics.RectF
 

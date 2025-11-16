@@ -1,5 +1,5 @@
 // fr.istic.mob.networkbs
-package istic.mob.networkbs
+package fr.istic.mob.networkbs
 
 import android.graphics.RectF
 import android.graphics.Color
