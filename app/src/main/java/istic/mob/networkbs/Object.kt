@@ -5,9 +5,10 @@ import android.graphics.RectF
 class Object (
     var label: String,
     var x: Float,
-    var y: Float
+    var y: Float,
+    var id: Int = 0
 ) {
-    val id: Int = NEXT_ID++
+//    val id: Int = NEXT_ID++
     var bounds: RectF = RectF(x - R, y - R, x + R, y + R)
 
     fun moveTo(newX: Float, newY: Float, viewWidth: Int, viewHeight: Int, topMargin: Float = 0F) {

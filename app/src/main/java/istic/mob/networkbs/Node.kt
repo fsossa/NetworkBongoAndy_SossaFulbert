@@ -2,12 +2,14 @@
 package istic.mob.networkbs
 
 import android.graphics.RectF
+import android.graphics.Color
 
 data class Node(
     var label: String,
     var x: Float,
     var y: Float,
-    var id: Int = 0
+    var id: Int = 0,
+    var color: Int = Color.CYAN
 ) {
     var bounds: RectF = RectF(x - R, y - R, x + R, y + R)
 

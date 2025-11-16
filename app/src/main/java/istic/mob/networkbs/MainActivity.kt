@@ -97,20 +97,23 @@ class MainActivity : AppCompatActivity() {
 
     private val saveFileName = "graph.json"
 
-    private fun saveGraph() {
-        val json = graph.toJson()
-        openFileOutput(saveFileName, MODE_PRIVATE).use { it.write(json.toByteArray()) }
-    }
-
-    private fun loadGraph() {
-        val file = getFileStreamPath(saveFileName)
-        if (file.exists()) {
-            val json = file.readText()
-            val newGraph = Graph.fromJson(json)
-            graph = newGraph
-            graphView.invalidate()
-        }
-    }
+//    private fun saveGraph() {
+//        val json = graph.toJson()
+//        val file = File(filesDir, "network.json")
+//
+//        FileOutputStream(file).write(json.toString().toByteArray(Charsets.UTF_8))
+//
+//    }
+//
+//    private fun loadGraph() {
+//        val file = getFileStreamPath(saveFileName)
+//        if (file.exists()) {
+//            val json = file.readText()
+//            val newGraph = Graph.fromJson(json)
+//            graph = newGraph
+//            graphView.invalidate()
+//        }
+//    }
 
     private fun captureAndSendEmail() {
         // Capturer le contenu de la zone du graphe
@@ -168,16 +171,16 @@ class MainActivity : AppCompatActivity() {
 
 
     //
-//    private val gson = Gson()
-//    private val SAVE_FILENAME = "network_graph.json"
+    private val gson = Gson()
+    private val SAVE_FILENAME = "network_graph.json"
 
-    /*fun saveGraphToInternal(graph: Graph) {
+    fun saveGraph() {
         val json = gson.toJson(graph)
         openFileOutput(SAVE_FILENAME, MODE_PRIVATE).use { it.write(json.toByteArray()) }
         Toast.makeText(this, getString(R.string.save_done), Toast.LENGTH_SHORT).show()
-    }*/
+    }
 
-    /*fun loadGraphFromInternal(): Graph? {
+    fun loadGraph(): Graph? {
         val file = File(filesDir, SAVE_FILENAME)
         if(!file.exists()) {
             Toast.makeText(this, getString(R.string.no_saved_graph), Toast.LENGTH_SHORT).show()
@@ -190,6 +193,6 @@ class MainActivity : AppCompatActivity() {
             graphView.setGraph(it) // ajoute setter dans GraphView
             graphView.invalidate()
         }
-    }*/
+    }
 
 }
